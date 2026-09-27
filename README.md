@@ -1,29 +1,23 @@
 # Akash Choudhary — Personal Website
 
-Plain HTML/CSS/JS, no build step, no dependencies to install. Deploy free on GitHub Pages.
+Plain HTML/CSS/JS, no build step, no dependencies to install. Deployed free on GitHub Pages at
+**https://akashchoudhary-dev.github.io/**.
 
-## Deploy for free (GitHub Pages)
+## Redeploying changes
 
-1. Create a new **public** GitHub repo, e.g. `AkashChaudharyFullStackDeveloper/akash-choudhary.github.io`
-   (naming it `<username>.github.io` gives you the shortest free URL: `https://<username>.github.io`).
-2. From this folder, push the files:
-   ```
-   git init
-   git add .
-   git commit -m "Initial personal website"
-   git branch -M main
-   git remote add origin https://github.com/<username>/<username>.github.io.git
-   git push -u origin main
-   ```
-3. In the repo on GitHub: **Settings → Pages → Source → Deploy from branch → main → / (root) → Save**.
-4. Your site is live within a minute or two at `https://<username>.github.io`.
+Since the repo is already connected to GitHub Pages, any push to `main` goes live automatically:
+```
+git add .
+git commit -m "Update site"
+git push
+```
+Changes usually appear within a minute or two.
 
-## Before/after going live
+## After going live (still worth doing)
 
-- **Update the placeholder domain.** `index.html` (canonical + Open Graph tags), `robots.txt`, and `sitemap.xml`
-  all currently point to `https://akashchoudhary.dev/`. Replace that with your actual GitHub Pages URL
-  (or your own custom domain, if you buy one later — GitHub Pages supports custom domains for free, you'd
-  only pay for the domain itself, ~$12/year).
+- **Custom domain (optional).** If you later buy your own domain (e.g. `akashchoudhary.com`, ~$12/year),
+  GitHub Pages supports pointing it at this repo for free — you'd only pay for the domain itself. This would
+  replace the current `akashchoudhary-dev.github.io` URL everywhere in `index.html`, `robots.txt`, and `sitemap.xml`.
 - **Submit to Google Search Console** (free): add the property, verify via the HTML file or meta tag method
   (works natively with GitHub Pages since you control the root), then submit `sitemap.xml`. This is what
   actually gets you indexed and ranking for your name in days rather than weeks.
