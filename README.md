@@ -23,8 +23,9 @@ Changes usually appear within a minute or two.
   actually gets you indexed and ranking for your name in days rather than weeks.
 - **Phone number was intentionally left off** the public page to avoid it being scraped by spam/scam bots —
   only email, LinkedIn, and GitHub are shown. Add it back into `index.html` if you'd rather have it visible.
-- **Photo:** the hero uses `myLinkedInPic_black.png` as the avatar. Swap the file (keep the same name, or
-  update the `src` on the `<img class="hero-avatar">` in `index.html`) if you want to use a different photo.
+- **Photo:** the hero uses `myLinkedInPic_black.jpg` as the avatar (resized to 420×420 and compressed to keep
+  the site fast). Swap the file (keep the same name, or update the `src` on the `<img class="hero-avatar">`
+  in `index.html`) if you want to use a different photo — keep it roughly square and under ~50KB if possible.
 
 ## Local preview
 
