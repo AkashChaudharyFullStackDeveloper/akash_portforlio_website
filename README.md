@@ -29,9 +29,8 @@ Plain HTML/CSS/JS, no build step, no dependencies to install. Deploy free on Git
   actually gets you indexed and ranking for your name in days rather than weeks.
 - **Phone number was intentionally left off** the public page to avoid it being scraped by spam/scam bots —
   only email, LinkedIn, and GitHub are shown. Add it back into `index.html` if you'd rather have it visible.
-- **Photo:** currently uses a plain "AC" initials avatar since no photo was provided. To use a real photo,
-  drop an image file (e.g. `photo.jpg`) into this folder and replace the `<div class="hero-avatar">AC</div>`
-  in `index.html` with `<img src="photo.jpg" alt="Akash Choudhary" class="hero-avatar">`.
+- **Photo:** the hero uses `myLinkedInPic_black.png` as the avatar. Swap the file (keep the same name, or
+  update the `src` on the `<img class="hero-avatar">` in `index.html`) if you want to use a different photo.
 
 ## Local preview
 
